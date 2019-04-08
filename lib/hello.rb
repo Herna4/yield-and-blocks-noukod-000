@@ -2,7 +2,7 @@ require_relative "../lib/hello.rb"
 
 def hello_t(array)
   
-  if block_given?
+  if block_given?#fails gracefully when a block is not passed in
    i = 0
  
   while i < array.length
