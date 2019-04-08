@@ -9,5 +9,5 @@ def hello_t(array)
 end
 
 # call your method here!
-hello([arra]) { |name| puts "Hi, #{name}" }
+hello([array]) { |name| puts "Hi, #{name}" }
 
