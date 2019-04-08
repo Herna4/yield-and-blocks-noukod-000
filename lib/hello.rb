@@ -13,7 +13,7 @@ def hello_t(array)
   
    array #return the original array 
  else
-    puts "Hey! No block was given!"
+    puts "Hey! No block was given!"#fails gracefully when a block is not passed in
  end
 end
 
