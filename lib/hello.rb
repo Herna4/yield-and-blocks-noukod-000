@@ -12,6 +12,7 @@ def hello_t(array)
   end
    array #return the original array 
  else
+    puts "Hey! No block was given!"
 end
 
 # call your method here!
