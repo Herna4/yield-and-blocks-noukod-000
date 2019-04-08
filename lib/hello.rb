@@ -1,3 +1,5 @@
+require_relative "../lib/hello.rb"
+
 def hello_t(array)
    i = 0
  
