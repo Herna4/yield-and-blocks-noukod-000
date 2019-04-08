@@ -1,6 +1,8 @@
 require_relative "../lib/hello.rb"
 
 def hello_t(array)
+  
+  if block given?
    i = 0
  
   while i < array.length
