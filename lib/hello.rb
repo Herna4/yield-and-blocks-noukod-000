@@ -10,10 +10,11 @@ def hello_t(array)
     i = i + 1
     
   end
+  
    array #return the original array 
  else
     puts "Hey! No block was given!"
-end
+ end
 end
 
 # call your method here!
